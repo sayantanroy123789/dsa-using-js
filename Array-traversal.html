@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+   <script>
+    let arr=[10,20,30,40,50,55,100,35,42]
+    for(let i=0;i<arr.length;i++){
+        document.write(`array ${i} is ${arr[i]} <br/>`)
+    } 
+    let x=2;
+    document.write(arr[x])
+   </script>
+
+   <br/>
+   <br/>
+   <script>
+    let arr1=[30,50,80,60,112,657,782,45]
+   
+   function data(){
+   
+    let el=document.getElementById('element').value
+    if(el<arr1.length){
+        alert(arr1[el])
+    }
+    else{
+        alert('enter valid input')
+    }
+    
+   }
+   </script>
+   <input type="text" id="element" />
+   <button onclick="data()">get data</button>
+</body>
+</html>
